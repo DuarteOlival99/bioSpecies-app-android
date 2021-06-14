@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.AboutFragment"
+    android:background="@color/background"
+    android:id="@+id/about">
+
+    <ScrollView
+        android:id="@+id/scroll_view_about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/textSplash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/grupo_8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/aboutTitle"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/imageSobreira"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textSplash"
+                app:srcCompat="@drawable/pedro_foto"
+                 />
+
+            <ImageView
+                android:id="@+id/imageBruna"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageSobreira"
+                app:srcCompat="@drawable/bruna_foto"
+                 />
+
+            <ImageView
+                android:id="@+id/imageDuarte"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageBruna"
+                app:srcCompat="@drawable/duarte_foto"
+
+                />
+
+            <TextView
+                android:id="@+id/textView_sobreira"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pedro_sobreira"
+                android:textSize="24sp"
+                android:textColor="@color/textColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.365"
+                app:layout_constraintStart_toEndOf="@+id/imageSobreira"
+                app:layout_constraintTop_toTopOf="@+id/imageSobreira" />
+
+            <TextView
+                android:id="@+id/textView_sobreira_nr"
+                android:layout_width="66dp"
+                android:layout_height="31dp"
+                android:text="@string/pedro_51012"
+                android:textSize="20sp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.408"
+                app:layout_constraintStart_toEndOf="@+id/imageSobreira"
+                app:layout_constraintTop_toBottomOf="@+id/textView_sobreira" />
+
+            <ImageView
+                android:id="@+id/iconLinkedin_sobreira"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.15"
+                app:layout_constraintStart_toEndOf="@+id/imageSobreira"
+                app:layout_constraintTop_toBottomOf="@+id/textView_sobreira_nr"
+                app:srcCompat="@drawable/linkedin"
+                android:visibility="visible"
+                android:contentDescription="@string/sobreira_linkedin" />
+
+            <ImageView
+                android:id="@+id/iconFacebook_sobreira"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.35"
+                app:layout_constraintStart_toEndOf="@+id/imageSobreira"
+                app:layout_constraintTop_toBottomOf="@+id/textView_sobreira_nr"
+                app:srcCompat="@drawable/facebook"
+                android:visibility="visible"
+                android:contentDescription="@string/sobreira_facebook" />
+
+            <ImageView
+                android:id="@+id/iconInstagram_sobreira"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.55"
+                app:layout_constraintStart_toEndOf="@+id/imageSobreira"
+                app:layout_constraintTop_toBottomOf="@+id/textView_sobreira_nr"
+                app:srcCompat="@drawable/instagram"
+                android:visibility="visible"
+                android:contentDescription="@string/sobreira_instagram" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bruna_vieites"
+                android:textColor="@color/textColor"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toEndOf="@+id/imageBruna"
+                app:layout_constraintTop_toTopOf="@+id/imageBruna" />
+
+            <TextView
+                android:id="@+id/textView_bruna_nr"
+                android:layout_width="66dp"
+                android:layout_height="31dp"
+                android:text="@string/bruna_55792"
+                android:textSize="20sp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.408"
+                app:layout_constraintStart_toEndOf="@+id/imageBruna"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <ImageView
+                android:id="@+id/iconLinkedin_bruna"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.15"
+                app:layout_constraintStart_toEndOf="@+id/imageBruna"
+                app:layout_constraintTop_toBottomOf="@+id/textView_bruna_nr"
+                app:srcCompat="@drawable/linkedin"
+                android:visibility="visible"
+                android:contentDescription="@string/bruna_linkedin" />
+
+            <ImageView
+                android:id="@+id/iconFacebook_bruna"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.35"
+                app:layout_constraintStart_toEndOf="@+id/imageBruna"
+                app:layout_constraintTop_toBottomOf="@+id/textView_bruna_nr"
+                app:srcCompat="@drawable/facebook"
+                android:visibility="visible"
+                android:contentDescription="@string/bruna_facebook" />
+
+            <ImageView
+                android:id="@+id/iconInstagram_bruna"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.55"
+                app:layout_constraintStart_toEndOf="@+id/imageBruna"
+                app:layout_constraintTop_toBottomOf="@+id/textView_bruna_nr"
+                app:srcCompat="@drawable/instagram"
+                android:visibility="visible"
+                android:contentDescription="@string/bruna_instagram" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/duarte_olival"
+                android:textColor="@color/textColor"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.322"
+                app:layout_constraintStart_toEndOf="@+id/imageDuarte"
+                app:layout_constraintTop_toTopOf="@+id/imageDuarte"/>
+
+            <TextView
+                android:id="@+id/textView_duarte_nr"
+                android:layout_width="66dp"
+                android:layout_height="31dp"
+                android:text="@string/duarte_55736"
+                android:textSize="20sp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.408"
+                app:layout_constraintStart_toEndOf="@+id/imageDuarte"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <ImageView
+                android:id="@+id/iconLinkedin_duarte"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.15"
+                app:layout_constraintStart_toEndOf="@+id/imageDuarte"
+                app:layout_constraintTop_toBottomOf="@+id/textView_duarte_nr"
+                app:srcCompat="@drawable/linkedin"
+                android:visibility="visible"
+                android:contentDescription="@string/duarte_linkedin" />
+
+            <ImageView
+                android:id="@+id/iconFacebook_duarte"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.35"
+                app:layout_constraintStart_toEndOf="@+id/imageDuarte"
+                app:layout_constraintTop_toBottomOf="@+id/textView_duarte_nr"
+                app:srcCompat="@drawable/facebook"
+                android:visibility="visible"
+                android:contentDescription="@string/duarte_facebook" />
+
+            <ImageView
+                android:id="@+id/iconInstagram_duarte"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.55"
+                app:layout_constraintStart_toEndOf="@+id/imageDuarte"
+                app:layout_constraintTop_toBottomOf="@+id/textView_duarte_nr"
+                app:srcCompat="@drawable/instagram"
+                android:visibility="visible"
+                android:contentDescription="@string/duarte_instagram" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

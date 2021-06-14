@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">BioSpecies</string>
+
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Fechar</string>
+
+    <string name="map">Mapa</string>
+    <string name="camera">Câmera</string>
+    <string name="avaliacoes">Avaliações</string>
+    <string name="desafios">Desafios</string>
+    <string name="caderneta">Caderneta</string>
+    <string name="profile">Perfil</string>
+    <string name="settings">Definições</string>
+    <string name="about">Sobre</string>
+
+    <string name="bem_vindo_a_bioEspecies">Bem Vindo, ao BioEspecies!</string>
+    <string name="grupo_8">Grupo 8</string>
+    <string name="duarte_olival" translatable="false">Duarte Olival</string>
+    <string name="bruna_vieites" translatable="false">Bruna Vieites</string>
+    <string name="pedro_sobreira" translatable="false">Pedro Sobreira</string>
+    <string name="pedro_51012" translatable="false">51012</string>
+    <string name="bruna_55792" translatable="false">55792</string>
+    <string name="duarte_55736" translatable="false">55736</string>
+    <string name="duarte_linkedin" translatable="false">Duarte Linkedin</string>
+    <string name="bruna_linkedin" translatable="false">Bruna Linkedin</string>
+    <string name="bruna_facebook" translatable="false">Bruna Facebook</string>
+    <string name="bruna_instagram" translatable="false">Bruna Instagram</string>
+    <string name="duarte_facebook" translatable="false">Duarte Facebook</string>
+    <string name="duarte_instagram" translatable="false">Duarte Instagram</string>
+    <string name="sobreira_linkedin" translatable="false">Sobreira Linkedin</string>
+    <string name="sobreira_facebook" translatable="false">Sobreira Facebook</string>
+    <string name="sobreira_instagram" translatable="false">Sobreira Instagram</string>
+
+    <string name="dark_mode">Modo Escuro</string>
+    <string name="dark_mode_automatico_aos_20_de_bateria">Modo escuro automatico aos 20% de bateria</string>
+
+    <string name="sem_permissao">Acesso negado à câmera</string>
+    <string name="com_permissao">Acesso garantido à camera</string>
+    <string name="sem_foto">Ainda não tirou uma foto ao lugar</string>
+
+    <string name="sem_titulo">Sem título</string>
+    <string name="Statistics">Estatísticas</string>
+    <string name="ativar_limpar_filtros_com_shake">Ativar limpar filtros com Shake</string>
+    <string name="animal_no_name" translatable="false">" ????? "</string>
+    <string name="nome_da_especie">Nome da Espécie</string>
+    <string name="raridade_da_especie">Raridade da Espécie</string>
+    <string name="sobre_a_especie">Sobre a Espécie</string>
+    <string name="zonas_mais_comuns">Zonas mais comuns</string>
+    <string name="aparece_o_texto_sobre_a_especie">Aparece o texto sobre a especie</string>
+
+    <string name="Edit">Guardar</string>
+    <string name="name">Nome</string>
+    <string name="new_password">Nova Palavra-Passe</string>
+    <string name="confirm_password">Confirmar Nova Palavra-Passe</string>
+    <string name="statistics1">Desafios Fáceis</string>
+    <string name="capture_history">Histórico de Capturas</string>
+    <string name="description">Descrição</string>
+    <string name="value">Valor</string>
+    <string name="catches_taken">Capturas Tiradas</string>
+    <string name="kilometers_travelled">Kilómetros percorridos</string>
+    <string name="statistics2">Desafios Médios</string>
+    <string name="statistics3">Desafios Difíceis</string>
+    <string name="recusar">Recusar</string>
+    <string name="nao_sei">Não sei</string>
+    <string name="nome_da_especie_avaliacao">Nome da espécie:</string>
+    <string name="current_challenges">Desafios atuais</string>
+    <string name="previous_challenges">Desafios anteriores</string>
+    <string name="next_challenges">Próximos Desafios</string>
+    <string name="filters">Filtros</string>
+    <string name="distance">Distância:</string>
+    <string name="rarity">Raridade:</string>
+    <string name="not_rare">Pouco Raro</string>
+    <string name="rare">Raro</string>
+    <string name="very_rare">Muito Raro</string>
+    <string name="clear">Apagar</string>
+    <string name="apply">Aplicar</string>
+    <string name="less">Menos de</string>
+    <string name="any">Qualquer</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Próximo</string>
+    <string name="previous">Anterior</string>
+
+    <string name="register">Registar</string>
+    <string name="login">Entrar</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="email_hint">examplo@email.com</string>
+    <string name="password_hint">palavra-passe</string>
+    <string name="username_hint">Nome de Utilizador</string>
+    <string name="confirm_password_hint">Confirmar password</string>
+    <string name="logOut">Sair</string>
+    <string name="nao_tens_conta">Não tens conta?</string>
+    <string name="registar_conta">Registar conta</string>
+    <string name="ver_detalhes">Clique Para Mais Detalhes</string>
+    <string name="ordem">"Ordem: "</string>
+    <string name="nome_cientifico">Nome Científico</string>
+    <string name="aparece_o_nome_cientifico">Aparece o nome cientifico</string>
+    <string name="classe_da_especie">Classe da espécie</string>
+    <string name="aparece_a_classe_da_especie">Aparece a classe da espécie</string>
+    <string name="familia_da_especie">Família da espécie</string>
+    <string name="aparece_a_familia_da_especie">Aparece a família da espécie</string>
+    <string name="habitat_da_especie">Habitat da espécie</string>
+    <string name="aparece_o_habitat_da_especie">Aparece o habitat da espécie</string>
+    <string name="aparece_o_texto_sobre_onde_a_especie_customa_ser_mais_vezes_vista">Aparece o texto sobre onde a especie customa ser mais vezes vista</string>
+    <string name="pendente">Pendente</string>
+    <string name="recusada">Recusada</string>
+    <string name="aceite">Aceite</string>
+    <string name="nao_tem_mais_fotos">Não tem mais fotos por avaliar</string>
+    <string name="user_level">Nivel</string>
+    <string name="common">Comum</string>
+    <string name="classe">"Classe: "</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Palavra-Passe</string>
+    <string name="nome_user">Nome de Utilizador</string>
+    <string name="password_confirm">Confirmar password</string>
+    <string name="ok" translatable="false">Ok</string>
+    <string name="sem_foto_camera">É necessário introduzir uma foto</string>
+    <string name="no_name" translatable="false">\?????</string>
+    <string name="atribuir_nome_de_foto">Atribuir nome de foto</string>
+    <string name="enviar_resposta">Enviar Resposta</string>
+    <string name="atribuir_nome_de_foto_drawer">Atribuir Nome de Foto</string>
+    <string name="escolhe_o_nome_da_foto">Escolhe o nome da foto</string>
+    <string name="resposta_4">Resposta 4</string>
+    <string name="resposta_3">Resposta 3</string>
+    <string name="resposta_2">Resposta 2</string>
+    <string name="resposta_1">Resposta 1</string>
+    <string name="atribuir_nome_de_foto_game_drawer">Jogo Atribuir Nome de Foto</string>
+    <string name="no_name_photo_game">Não existe mais fotos para poder jogar</string>
+    <string name="faq" translatable="false">FAQ</string>
+    <string name="selecione_uma_foto">Selecione uma foto:</string>
+    <string name="escolher_foto_camera">Camera</string>
+    <string name="escolher_foto_galeria">Galeria</string>
+    <string name="n_mero_de_capturas_aceites">Número de capturas aceites</string>
+    <string name="ranking" translatable="false">Ranking</string>
+    <string name="a_atualizar_ranking">A atualizar ranking</string>
+    <string name="minhas_capturas">Minhas Capturas:</string>
+    <string name="nr_capturas">Nr Capturas:</string>
+    <string name="nao_sei_o_nome">Não sei o nome</string>
+    <string name="enviar">Enviar</string>
+    <string name="foto">Foto</string>
+    <string name="nome">Nome</string>
+    <string name="classificacao">Classificação</string>
+    <string name="como_ganho_xp">Como ganho XP?</string>
+    <string name="cores_dos_markers_no_mapa">O que significam as cores dos markers no mapa?</string>
+    <string name="cor_das_bolas_apresentadas_nos_desafios">O que significa a cor das bolas apresentadas nos desafios?</string>
+    <string name="desafio_da_mesma_dificuldade_ganho_xp">Se completar mais que um desafio da mesma dificuldade, ganho XP por cada um?</string>
+    <string name="desbloqueio_especie_na_caderneta">Como desbloqueio uma espécie na caderneta?</string>
+    <string name="resposta_como_ganho_xp">Existem 4 formas de ganhar XP:\n - Quando se conclui algum dos desafios apresentados, na aba Desafios. \n
+        - Por cada foto avaliada, o utilizador que fez essa avaliação correta ganha 5 XP. \n
+        - Por cada nome atribuído a uma foto sem nome, o utilizador que fez essa atribuição correta ganha 20 XP. \n
+        - Por cada nome escolhido no jogo de escolha de nomes para a foto apresentada, o utilizador que fez essa escolha correta ganha 10 XP.</string>
+    <string name="resposta_cores_dos_markers_no_mapa">Existem 4 cores diferentes, conforme a raridade da espécie: \n
+        - Cor Verde, espécie comum \n
+        - Cor Amarela, espécie pouco rara \n
+        - Cor Laranja, espécie rara \n
+        - Cor Vermelha, espécie muito rara</string>
+    <string name="resposta_cor_das_bolas_apresentadas_nos_desafios">Cada cor corresponde a uma dificuldade diferente: \n
+        - Cor Verde, desafio fácil \n
+        - Cor Amarela, desafio médio \n
+        - Cor Vermelha, desafio difícil</string>
+    <string name="reposta_desafio_da_mesma_dificuldade_ganho_xp">Não.\n
+        Os desafios são semanais e só é possivel conclui-lo uma vez.\n
+        Por isso só é possivel ganhar XP apenas na primeira vez que o fizer em cada semana.</string>
+    <string name="resposta_desbloqueio_especie_na_caderneta">Tirar uma foto e esperar que essa fota seja aceite pela comunidade. Pode acompanhar
+        o estado da foto no seu perfil, mais propriamente no histórico de capturas.</string>
+    <string name="desafio_animal_comum">Fotografar 1 animal do tipo comum</string>
+    <string name="desafio_aninmal_pouco_raro">Fotografar 1 animal do tipo pouco raro</string>
+    <string name="desafio_animal_raro">Fotografar 1 animal do tipo raro</string>
+    <string name="desafio_animal_muito_raro">Fotografar 1 animal do tipo muito raro</string>
+    <string name="current_password">Palavra-Passe Atual</string>
+    <string name="avaliacao_de_fotos">Avaliação de fotos</string>
+    <string name="aceitar">Aceitar</string>
+    <string name="faltam">Faltam</string>
+    <string name="ranking_de_capturas">Ranking de Capturas</string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "343332381341",
+    "project_id": "biospecies-2ce9e",
+    "storage_bucket": "biospecies-2ce9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343332381341:android:d2f1b71a18771171ea2a74",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343332381341-ptsrl947s6tfdmc39f52rj9tm8aq3n92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeplT59Lc6iNH-0woqKA8PktmMuLOf2e8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343332381341-ptsrl947s6tfdmc39f52rj9tm8aq3n92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/foto_name"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:placeholderText="Ex: especie"
+            app:counterEnabled="true"
+            app:counterMaxLength="30"
+            android:hint="@string/nome_da_especie"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            >
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/foto_name_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/ic_reload"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/constraint_butoes_"
+            app:layout_constraintTop_toBottomOf="@+id/foto_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:elevation="3dp"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_butoes_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+                <Button
+                    android:id="@+id/send_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="@string/enviar"
+                    android:visibility="visible"
+                    android:scaleType="center"
+                    android:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="#3cffffff"
+                    app:tint="#FFFFFF"
+                    android:drawableRight="@drawable/ic_send"
+                    android:drawableTint="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/fabNewFoto"
+                    app:layout_constraintTop_toTopOf="@+id/fabNewFoto"
+                    app:layout_constraintStart_toEndOf="@id/dont_know_name"
+                    app:layout_constraintEnd_toStartOf="@id/fabNewFoto"
+                    android:layout_marginEnd="5dp"
+                    />
+
+                <Button
+                    android:id="@+id/dont_know_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="@string/nao_sei_o_nome"
+                    android:visibility="visible"
+                    android:scaleType="center"
+                    android:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="#3cffffff"
+                    app:tint="#FFFFFF"
+                    android:drawableTint="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/fabNewFoto"
+                    app:layout_constraintTop_toTopOf="@+id/fabNewFoto"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/send_button"
+                    android:layout_marginEnd="5dp"
+
+                    />
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabNewFoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_baseline_camera"
+                    app:tint="@color/white"
+                    android:tag="Nova foto"
+                    app:elevation="6dp"
+                    app:fabSize="normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

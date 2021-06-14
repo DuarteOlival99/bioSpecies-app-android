@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/map"
+            />
+
+        <item
+            android:id="@+id/avaliacoes"
+            android:icon="@drawable/ic_evaluation"
+            android:title="@string/avaliacoes"/>
+
+        <item
+            android:id="@+id/avaliacoes_sem_nome"
+            android:icon="@drawable/ic_evaluation"
+            android:title="@string/atribuir_nome_de_foto_drawer"/>
+
+        <item
+            android:id="@+id/avaliacoes_sem_nome_game"
+            android:icon="@drawable/ic_evaluation"
+            android:title="@string/atribuir_nome_de_foto_game_drawer"/>
+
+        <item
+            android:id="@+id/desafios"
+            android:icon="@drawable/ic_desafios"
+            android:title="@string/desafios"/>
+
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/ic_baseline_camera"
+            android:title="@string/camera"
+            />
+
+        <item
+            android:id="@+id/caderneta"
+            android:icon="@drawable/ic_caderneta_white"
+            android:title="@string/caderneta"
+            />
+
+        <item
+            android:id="@+id/ranking"
+            android:icon="@drawable/ic_ranking"
+            android:title="@string/ranking"
+            />
+
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="@string/profile"
+            />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings"
+            />
+
+        <item
+            android:id="@+id/faq"
+            android:icon="@drawable/ic_faq"
+            android:title="@string/faq"
+            />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about"
+            />
+
+    </group>
+
+    <group>
+
+        <item
+            android:id="@+id/logOut"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logOut"
+            />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:id="@+id/atribuir_nome_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/escolhe_o_nome_da_foto"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            />
+
+        <ImageView
+            android:id="@+id/foto_sem_nome_game"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/ic__no_photography"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/atribuir_nome_game"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/constraint_butoes_game"
+            />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_butoes_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <Button
+                android:id="@+id/button_send_answer1_game"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="#094902"
+                android:text="@string/resposta_1"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="visible"
+                app:rippleColor="#3cffffff"
+                app:tint="#FFFFFF"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/button_send_answer2_game"
+                />
+
+            <Button
+                android:id="@+id/button_send_answer2_game"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="#094902"
+                android:text="@string/resposta_2"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="visible"
+                app:rippleColor="#3cffffff"
+                app:tint="#FFFFFF"
+                app:layout_constraintTop_toTopOf="@+id/button_send_answer1_game"
+                app:layout_constraintStart_toEndOf="@+id/button_send_answer1_game"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+            <Button
+                android:id="@+id/button_send_answer3_game"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:backgroundTint="#094902"
+                android:text="@string/resposta_3"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="visible"
+                app:rippleColor="#3cffffff"
+                app:tint="#FFFFFF"
+                app:layout_constraintTop_toBottomOf="@+id/button_send_answer1_game"
+                app:layout_constraintStart_toStartOf="@+id/button_send_answer1_game"
+                app:layout_constraintEnd_toEndOf="@+id/button_send_answer1_game"
+                />
+
+            <Button
+                android:id="@+id/button_send_answer4_game"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:backgroundTint="#094902"
+                android:text="@string/resposta_4"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="visible"
+                app:rippleColor="#3cffffff"
+                app:tint="#FFFFFF"
+                app:layout_constraintTop_toBottomOf="@+id/button_send_answer2_game"
+                app:layout_constraintStart_toStartOf="@+id/button_send_answer2_game"
+                app:layout_constraintEnd_toEndOf="@+id/button_send_answer2_game"
+                />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="60dp"
+        >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/ic_baseline_camera"
+            app:tint="@color/white"
+            android:layout_marginTop="5dp"
+            app:borderWidth="0dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/ic_filter_list"
+            app:tint="@color/white"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:borderWidth="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/perfil_linearlayout_mapa"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_mapa"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_perfil"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/progress_bar_mapa"
+                app:layout_constraintEnd_toEndOf="@+id/progress_bar_mapa"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorPrimary"
+                />
+
+            <ProgressBar
+                android:id="@+id/progress_bar_mapa"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:progress="50"
+                android:progressBackgroundTint="#AEADAD"
+                android:progressTint="@color/colorPrimary"
+                android:minHeight="10dip"
+                android:maxHeight="20dip"
+                app:layout_constraintTop_toBottomOf="@+id/profile_image_mapa"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                />
+            <TextView
+                android:id="@+id/nivel_user_mapa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:text="X"
+                android:layout_marginEnd="7dp"
+                app:layout_constraintRight_toLeftOf="@+id/progress_bar_mapa"
+                app:layout_constraintTop_toBottomOf="@id/profile_image_mapa"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

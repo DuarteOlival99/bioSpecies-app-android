@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BioSpecies</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="about">About</string>
+    <string name="grupo_8">Group 8</string>
+    <string name="map">Map</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_automatico_aos_20_de_bateria">Auto Dark Mode bellow 20% battery</string>
+    <string name="sem_permissao">Camera access denied</string>
+    <string name="com_permissao">Camera access garanted</string>
+    <string name="sem_foto">You haven\'t taken a photo of the place yet</string>
+    <string name="camera">Camera</string>
+    <string name="sem_titulo">No title</string>
+    <string name="avaliacoes">Evaluation</string>
+    <string name="desafios">Challenges</string>
+    <string name="caderneta">Species Collection</string>
+    <string name="bem_vindo_a_bioEspecies">Welcome, to BioSpecies!</string>
+    <string name="Statistics">Statistics</string>
+
+    <string name="Edit">Save</string>
+    <string name="name">Name</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm New Password</string>
+    <string name="statistics1">Easy challenges</string>
+    <string name="capture_history">Capture History</string>
+    <string name="description">Description</string>
+    <string name="value">Value</string>
+    <string name="catches_taken">Catches Taken</string>
+    <string name="kilometers_travelled">Kilometers Travelled</string>
+    <string name="statistics2">Medium Challenges</string>
+    <string name="statistics3">Difficult challenges</string>
+    <string name="current_challenges">Current Challenges</string>
+    <string name="previous_challenges">Previous Challenges</string>
+    <string name="next_challenges">Next Challenges</string>
+    <string name="filters">Filters</string>
+    <string name="distance">Distance:</string>
+    <string name="rarity">Rarity: </string>
+    <string name="not_rare">Not Rare</string>
+    <string name="rare">Rare</string>
+    <string name="very_rare">Very Rare</string>
+    <string name="clear">Clear</string>
+    <string name="apply">Apply</string>
+    <string name="less">Less than</string>
+    <string name="any">Any</string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="criar_conta">Create Account</string>
+    <string name="email_hint">example@email.com</string>
+    <string name="password_hint">password</string>
+    <string name="username_hint">Username</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="ver_detalhes">Click For More Details</string>
+    <string name="user_level">Level</string>
+    <string name="nome_da_especie">Species Name</string>
+    <string name="raridade_da_especie">Rarity of Species</string>
+    <string name="sobre_a_especie">About the Species</string>
+    <string name="zonas_mais_comuns">Most common areas</string>
+    <string name="ativar_limpar_filtros_com_shake">Activate cleaning filters with shake</string>
+    <string name="aparece_o_texto_sobre_a_especie">The text about the species appears</string>
+    <string name="recusar">Decline</string>
+    <string name="nao_sei">I don\'t know</string>
+    <string name="nome_da_especie_avaliacao">Name of the species:</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="logOut">Log out</string>
+    <string name="nao_tens_conta">Don\'t you have an account?</string>
+    <string name="registar_conta">Register account</string>
+    <string name="ordem">Order:</string>
+    <string name="nome_cientifico">Scientific Name</string>
+    <string name="aparece_o_nome_cientifico">The scientific name appears</string>
+    <string name="classe_da_especie">Class of species</string>
+    <string name="common">Commom</string>
+    <string name="n_mero_de_capturas_aceites">Number of catches accepted</string>
+    <string name="enviar_resposta">send Response</string>
+    <string name="atribuir_nome_de_foto">Assign photo name</string>
+    <string name="password">Password</string>
+    <string name="nome_user">User Name</string>
+    <string name="password_confirm">Confirm password</string>
+    <string name="atribuir_nome_de_foto_game_drawer">Assign Photo Name Game</string>
+    <string name="nao_tem_mais_fotos">No more pictures to evaluate</string>
+    <string name="aceite">Accept</string>
+    <string name="recusada">Rejected</string>
+    <string name="pendente">Pending</string>
+    <string name="classe">Class:</string>
+    <string name="aparece_a_classe_da_especie">The species class appears</string>
+    <string name="familia_da_especie">Family of the species</string>
+    <string name="aparece_a_familia_da_especie">The family of the species appears</string>
+    <string name="habitat_da_especie">Habitat of the specie</string>
+    <string name="aparece_o_habitat_da_especie">The habitat of the specie appears</string>
+    <string name="aparece_o_texto_sobre_onde_a_especie_customa_ser_mais_vezes_vista">The text about where the species customa is most often seen appears</string>
+    <string name="sem_foto_camera">You need to enter a photo</string>
+    <string name="atribuir_nome_de_foto_drawer">Assign Photo Name</string>
+    <string name="resposta_4">Answer 4</string>
+    <string name="resposta_3">Answer 3</string>
+    <string name="resposta_2">Answer 2</string>
+    <string name="resposta_1">Answer 1</string>
+    <string name="no_name_photo_game">No more pictures to play with</string>
+    <string name="escolhe_o_nome_da_foto">Choose the name of the photo</string>
+    <string name="selecione_uma_foto">Choose a photo:</string>
+    <string name="escolher_foto_camera">Camera</string>
+    <string name="escolher_foto_galeria">Gallery</string>
+    <string name="nao_sei_o_nome">I don\'t know the name</string>
+    <string name="enviar">Send</string>
+    <string name="foto">Photo</string>
+    <string name="nome">Name</string>
+    <string name="classificacao">Classification</string>
+    <string name="como_ganho_xp">How do I get XP?</string>
+    <string name="cores_dos_markers_no_mapa">What do the colours of the markers on the map mean?</string>
+    <string name="cor_das_bolas_apresentadas_nos_desafios">What does the colour of the balls presented in the challenges mean?</string>
+    <string name="desafio_da_mesma_dificuldade_ganho_xp">If I complete more than one challenge of the same difficulty, do I gain XP for each one?</string>
+    <string name="desbloqueio_especie_na_caderneta">How do I unblock a species in the species collection?</string>
+    <string name="resposta_como_ganho_xp">There are 4 ways to earn XP: \n
+        - When you conclude some of the challenges presented, in the Challenges tab. \n
+        - For each photo evaluated, the user who made that correct evaluation gains 5 XP. \n
+        - For each name assigned to a photo without a name, the user who made the correct assignment wins 20 XP. \n
+        - For each name chosen in the name pick game for the photo displayed, the user who made that correct choice wins 10 XP.</string>
+    <string name="resposta_cores_dos_markers_no_mapa">There are 4 different colours, according to the rarity of the species: \n
+        - Green colour, common species \n
+        - Yellow, not rare species \n
+        - Orange, rare species \n
+        - Red colour, very rare species</string>
+    <string name="resposta_cor_das_bolas_apresentadas_nos_desafios">Each colour corresponds to a different difficulty: \n
+        - Green colour, easy challenge \n
+        - Yellow, medium challenge \n
+        - Red colour, difficult challenge</string>
+    <string name="reposta_desafio_da_mesma_dificuldade_ganho_xp">No.\n
+        The challenges are weekly and can only be completed once. \n
+        So it\'s only possible to gain XP the first time you do it each week.</string>
+    <string name="resposta_desbloqueio_especie_na_caderneta">Take a photo and wait for that photo to be accepted by the community.
+        You can follow the status of the photo in your profile, more specifically in the history of catches.</string>
+    <string name="desafio_animal_comum">Photograph 1 animal of the common type</string>
+    <string name="desafio_animal_raro">Photograph 1 animal of the rare type</string>
+    <string name="desafio_animal_muito_raro">Photograph 1 animal of the very rare type</string>
+    <string name="desafio_aninmal_pouco_raro">Photograph 1 animal of the not rare type</string>
+    <string name="current_password">Current Password</string>
+    <string name="avaliacao_de_fotos">Photo evaluation</string>
+    <string name="aceitar">Accept</string>
+    <string name="nr_capturas">Nr Captures:</string>
+    <string name="minhas_capturas">My Captures:</string>
+    <string name="a_atualizar_ranking">Updating ranking</string>
+    <string name="faltam">Missing</string>
+    <string name="ranking_de_capturas">Capture Ranking</string>
+
+</resources>

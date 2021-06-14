@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/filters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/filters"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            >
+
+            <TableRow
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="@string/distance"
+                android:gravity="center|start"
+                android:paddingStart="16dp"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line"
+                />
+
+            <TextView
+                android:id="@+id/distanceValue"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/distance"
+
+                />
+
+            <SeekBar
+                android:id="@+id/SeekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:max="100"
+                android:progress="0"
+                android:progressBackgroundTint="@color/grey"
+                android:thumbTint="@color/colorPrimary"
+                android:progressTint="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/distanceValue"
+                />
+
+            <TextView
+                android:id="@+id/rarity"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="@string/rarity"
+                android:gravity="center|start"
+                android:paddingStart="16dp"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/SeekBar"
+                />
+
+            <CheckBox
+                android:id="@+id/common"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/common"
+                android:textSize="12sp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rarity"
+                app:layout_constraintEnd_toStartOf="@+id/not_rare"
+                android:buttonTint="@color/colorPrimary"/>
+
+            <CheckBox
+                android:id="@+id/not_rare"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/not_rare"
+                android:textSize="12sp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintStart_toEndOf="@+id/common"
+                app:layout_constraintTop_toBottomOf="@id/rarity"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:buttonTint="@color/colorPrimary"/>
+
+            <CheckBox
+                android:id="@+id/rare"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/rare"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@id/common"
+                app:layout_constraintTop_toBottomOf="@id/not_rare"
+                android:buttonTint="@color/colorPrimary"
+                />
+
+            <CheckBox
+                android:id="@+id/very_rare"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/very_rare"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/not_rare"
+                app:layout_constraintTop_toBottomOf="@id/not_rare"
+                android:buttonTint="@color/colorPrimary"
+                />
+
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/red"
+                android:textColor="@color/white"
+                android:padding="0dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="@string/clear"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/very_rare"
+                />
+
+            <Button
+                android:id="@+id/apply"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"
+                android:padding="0dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="@string/apply"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/very_rare"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

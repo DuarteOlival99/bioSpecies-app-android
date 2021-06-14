@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/caderneta_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/perfil_especie_nome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:text="Nome da Especie"
+            android:textAlignment="center"
+            />
+
+
+        <ImageView
+            android:id="@+id/perfil_especie_photo"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/ic__no_photography"
+            android:layout_margin="2dp"
+            android:layout_gravity="center"
+             />
+
+
+        <TextView
+            android:id="@+id/perfil_especie_nome_cientifico_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="10dp"
+            android:text="@string/nome_cientifico"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/perfil_especie_nome_cientifico_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/aparece_o_nome_cientifico"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/perfil_especie_classe_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/classe_da_especie"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/perfil_especie_classe_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/aparece_a_classe_da_especie"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/perfil_especie_raridade_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/raridade_da_especie"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/perfil_especie_raridade_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Aparece a raridade da especie"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />
+
+        <!--<TextView
+            android:id="@+id/perfil_especie_sobre_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/sobre_a_especie"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/perfil_especie_sobre_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/aparece_o_texto_sobre_a_especie"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/perfil_especie_habitat_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/habitat_da_especie"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/perfil_especie_habitat_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/aparece_o_habitat_da_especie"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />-->
+
+        <TextView
+            android:id="@+id/perfil_especie_zonas_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/zonas_mais_comuns"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/perfil_especie_zonas_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/aparece_o_texto_sobre_onde_a_especie_customa_ser_mais_vezes_vista"
+            android:textAlignment="textStart"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
